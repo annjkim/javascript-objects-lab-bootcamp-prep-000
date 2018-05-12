@@ -1,7 +1,4 @@
 var recipes = {
-  maindish1 = "breakfast"
-  maindish2 = "lunch"
-  maindish3 = "dinner"
 };
 
 function updateObjectWithKeyAndValue(object, key, value) {
