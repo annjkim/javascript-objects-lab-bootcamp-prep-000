@@ -17,12 +17,3 @@ function deleteFromObjectByKey(object, key) {
   delete recipes.maindish2
   return recipes
 }
-
-var meals = { breakfast: “oatmeal”, lunch: “turkey sandwich”, dinner: “steak and potatoes” };
-
-   // the ‘delete’ operator returns ‘true’ if it has successfully
-   // deleted, ‘false’ otherwise
-   delete meals.dinner; // true
-
-   meals;
-   // returns { breakfast: “oatmeal”, lunch: “turkey sandwich” }
